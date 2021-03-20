@@ -1,0 +1,36 @@
+
+
+
+
+.welcome {
+    height:200vh;
+    
+    background: url('/assets/images/par.jpeg')
+    no-repeat bottom right fixed;
+
+    background-size: cover;
+    position: relative;
+    background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.welcome {
+    height: 200vh;
+    overflow: hidden;
+    position: inherit;
+
+     animation-name: welcome-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+}
+
+@keyframes welcome-zoom {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
