@@ -1,4 +1,7 @@
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
@@ -34,3 +37,22 @@
         transform: scale(1);
     }
 }
+
+h1 {
+    font-family: 'Syne Mono', monospace;
+    font-size: 3rem;
+    color: #e84545;
+    position: fixed;
+    margin: 2rem 0 0 2rem;
+}
+
+.navbar-nav {
+    color:whitesmoke; 
+    position: relative;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(247 247 247);
+}
+    
