@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: blanchedalmond;
 }
 
 
@@ -66,4 +67,15 @@ h1 {
     padding-top: 0.7rem;
     width:50%;
     position:relative;
+}
+
+.information {
+    background-color: blanchedalmond;
+margin-top: 5em;
+padding: 30px 30px; 
+}
+
+.information h3 {
+    text-align: center;
+    text-transform: uppercase;
 }
