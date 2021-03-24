@@ -1,23 +1,17 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: blanchedalmond;
+    background-color: #ffffff;
 }
-
-
 
 .welcome {
     height:100vh;
-    
     background: url('/assets/images/par.jpeg')
     no-repeat bottom right fixed;
-
-    
-    background-size: cover;
+     background-size: cover;
     position: relative;
     background-position: center;
   background-repeat: no-repeat;
-
 
 }
 
@@ -70,7 +64,7 @@ h1 {
 }
 
 .information {
-    background-color: blanchedalmond;
+    background-color: #ffffff;
 margin-top: 5em;
 padding: 30px 30px; 
 }
