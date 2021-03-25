@@ -43,6 +43,10 @@ Assuming some part of the websites visitors would be either people tired from wa
 
 * Keyframe code snippet is borrowed from the "Love Running" project at Code Institute. 
 
+### Colors and fonts 
+
+* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+
 ### Media
 
 * All images are taken from Unsplash 

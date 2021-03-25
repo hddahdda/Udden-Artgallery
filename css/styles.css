@@ -40,13 +40,24 @@ h1 {
     font-size: 3rem;
     color: #e84545;
     position: fixed;
-    margin: 2rem 0 0 2rem;
+    margin: 3rem 0 0 2rem;
+    background-color:rgba(76, 81, 81, 0.15);
+    border-color: rgba(5, 42, 45, 0.65);
+}
+
+h1:hover {
+    color:#ffffff;
 }
 
 .navbar-nav {
     color:whitesmoke; 
     position: relative;
 
+}
+
+.navbar-nav a:hover {
+    background-color: #e84545;
+    
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -62,6 +73,7 @@ h1 {
     width:50%;
     position:relative;
 }
+
 
 .information {
     background-color: #ffffff;
