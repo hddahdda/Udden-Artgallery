@@ -1,8 +1,11 @@
+/*----------------Body-------------*/
 
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #ffffff;
 }
+
+/*----------------Header, Navbar-------------*/
 
 .welcome {
     height:100vh;
@@ -20,7 +23,8 @@ body {
     overflow: hidden;
     position: inherit;
 
-     animation-name: welcome-zoom;
+/*----------------Code snippet, keyframe, borrrowed from "Love Running" project-------------*/
+    animation-name: welcome-zoom;
     animation-duration: 5s;
     animation-fill-mode: both;
 }
@@ -34,6 +38,7 @@ body {
         transform: scale(1);
     }
 }
+/*----------------./Ends here-------------*/
 
 h1 {
     font-family: 'Syne Mono', monospace;
@@ -41,12 +46,12 @@ h1 {
     color: #e84545;
     position: fixed;
     margin: 3rem 0 0 2rem;
-    background-color:rgba(76, 81, 81, 0.15);
+    background-color:rgba(255, 255, 255, 0.91);
     border-color: rgba(5, 42, 45, 0.65);
 }
 
 h1:hover {
-    color:#ffffff;
+    color:#C14242;
 }
 
 .navbar-nav {
@@ -74,14 +79,30 @@ h1:hover {
     position:relative;
 }
 
+.headerinfo h2 {
+    text-transform: uppercase;
+}
 
+
+/*----------------Mid-section-------------*/
 .information {
     background-color: #ffffff;
-margin-top: 5em;
-padding: 30px 30px; 
+margin-top: 2rem;
+padding: 3rem 3rem; 
 }
 
 .information h3 {
     text-align: center;
     text-transform: uppercase;
+    padding-bottom: 2rem;
+    color: #c81919;
 }
+
+.information p {
+    padding-top: 0.8rem;
+    font-size: 1rem;
+}
+
+/*----------------Map, Opening hours-------------*/
+
+
