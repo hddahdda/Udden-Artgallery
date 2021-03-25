@@ -13,7 +13,6 @@ body {
      background-size: cover;
     position: relative;
     background-position: center;
-  background-repeat: no-repeat;
 }
 
 .welcome {
@@ -123,4 +122,28 @@ padding: 3rem 3rem;
 
 .divbox {
     background-color: rgba(254, 240, 240, 0.9);
+}
+
+/*----------------Map and opening hours section-------------*/
+
+footer {
+   background:rgb(136,173,199);
+   font-family: 'Syne Mono', monospace;
+   padding: 2.5rem 2.5rem 1rem;
+   text-align: center;
+}
+
+footer h5 {
+    color: whitesmoke;
+    font-size: 2.3rem;
+    text-align: right;
+    padding: 1rem;
+    
+}
+
+
+footer h5:hover{
+    color: rgb(86,130,153);
+    text-decoration: none;
+
 }
