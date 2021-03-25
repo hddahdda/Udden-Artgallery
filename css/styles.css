@@ -4,7 +4,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #ffffff;
 }
-
 /*----------------Header, Navbar-------------*/
 
 .welcome {
@@ -15,7 +14,6 @@ body {
     position: relative;
     background-position: center;
   background-repeat: no-repeat;
-
 }
 
 .welcome {
@@ -69,7 +67,6 @@ h1:hover {
     color: rgb(247 247 247);
 }
     
-
 .headerinfo {
     left: 600px;
     top: 500px;
@@ -82,7 +79,6 @@ h1:hover {
 .headerinfo h2 {
     text-transform: uppercase;
 }
-
 
 /*----------------Mid-section-------------*/
 .information {
@@ -105,4 +101,26 @@ padding: 3rem 3rem;
 
 /*----------------Map, Opening hours-------------*/
 
+.mapsec {
+background-color: #f08989;
+margin-top: 2rem;
+padding: 3rem 3rem; 
 
+}
+
+.mapsec h4 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem;
+    color: #c81919;
+}
+
+.mapsec p {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.divbox {
+    background-color: rgba(254, 240, 240, 0.9);
+}
