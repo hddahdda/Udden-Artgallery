@@ -54,12 +54,10 @@ h1:hover {
 .navbar-nav {
     color:whitesmoke; 
     position: relative;
-
 }
 
 .navbar-nav a:hover {
     background-color: #e84545;
-    
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -126,6 +124,8 @@ padding: 3rem 3rem;
 
 /*----------------Map and opening hours section-------------*/
 
+/*----------------Footer-------------*/
+
 footer {
    background:rgb(136,173,199);
    font-family: 'Syne Mono', monospace;
@@ -141,9 +141,14 @@ footer h5 {
     
 }
 
-
 footer h5:hover{
-    color: rgb(86,130,153);
+    color: rgb(213,226,226);
     text-decoration: none;
 
+}
+
+/*----------------Visit Page-------------*/
+
+#visit {
+    background:rgb(12,25,35);
 }
