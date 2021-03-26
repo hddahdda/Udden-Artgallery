@@ -152,3 +152,14 @@ footer h5:hover{
 #visit {
     background:rgb(12,25,35);
 }
+
+.button {
+    background:rgb(136,173,199);
+    border:none;
+}
+
+.button:hover {
+   color:whitesmoke;
+   border:none;
+   background: inherit;
+}
