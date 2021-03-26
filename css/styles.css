@@ -121,9 +121,6 @@ padding: 3rem 3rem;
 .divbox {
     background-color: rgba(254, 240, 240, 0.9);
 }
-
-/*----------------Map and opening hours section-------------*/
-
 /*----------------Footer-------------*/
 
 footer {
@@ -150,7 +147,7 @@ footer h5:hover{
 /*----------------Visit Page-------------*/
 
 #visit {
-    background:rgb(12,25,35);
+    background:rgb(120, 142, 158);
 }
 
 .button {
@@ -163,3 +160,46 @@ footer h5:hover{
    border:none;
    background: inherit;
 }
+
+.namediv {
+
+}
+
+.h1visit {
+    font-family: 'Syne Mono', monospace;
+    font-size: 3rem;
+    color: #e84545;
+    position: relative;
+    margin: 1rem 0 0 2rem;
+    background-color:rgba(255, 255, 255, 0.91);
+    border-color: rgba(5, 42, 45, 0.65);
+}
+
+.midsection {
+ background-color: #ffffff;
+margin-top: 2rem;
+padding: 1.5rem 3rem 1.5rem; 
+}
+
+.midsection h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+    
+/**--not working
+
+@media screen and (max-width: width 700px;) {
+    h1 {
+        font-size: 25%;
+        position: fixed;
+    }
+
+    .h1visit {
+        font-size: 25%;
+    }
+}
+
+---*./
+
