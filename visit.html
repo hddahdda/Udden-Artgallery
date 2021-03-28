@@ -40,41 +40,103 @@
         <h2>Visit Us</h2>
         <hr>
         <div class="row">
-              <div class="col-lg-4 col-md-6 col-sm-12">
-                <img src="assets/images/bush.jpeg" class="img-fluid rounded" alt="Picture of a bush">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="assets/images/bush.jpeg" class="img-fluid square" alt="Picture of a bush">
             </div>
-            <div class="col-md pricing">     
-            <ul class>
-                <h3>Pricing</h3>
-                <li><h4>Children below 18 - <span>Free!</span></h4></li>
-                <li><h4>Adults - <span>90kr/9euro</span></h4></li>
-                <li><h4>Senior - <span>Free!</span></h4></li>
-            </ul>
+            <div class="col-md pricing">
+                <ul class>
+                    <h3>Pricing</h3>
+                    <li>
+                        <h4>Children below 18 - <span>Free!</span></h4>
+                    </li>
+                    <li>
+                        <h4>Adults - <span>90kr/9euro</span></h4>
+                    </li>
+                    <li>
+                        <h4>Senior - <span>Free!</span></h4>
+                    </li>
+                </ul>
+                <hr>
+                <h3>Due to the Corona virus...</h3>
+                <p>We have chosen to limit our maximum of visitors to a maximum of 15 persons a time. If you plan on
+                    visiting with a group of more then two please will out the form to the right to book a spot. Note
+                    that we for now only allow groups with a maximum of 9. </p>
+            </div>
+            <div class="col-md coronavirus">
+                <h3>Pre-booking Form </h3>
+                <form>
+                    <fieldset>
+                        <legend>Your Name</legend>
+                        <label for="fname">First Name</label><br>
+                        <input type="text" id="fname" name="first_name" class="text-input" required><br>
+                        <label for="lname">Last Name</label><br>
+                        <input type="text" id="lname" name="last_name" class="text-input" required><br>
+                    </fieldset>
+                    <label for="visitors">How many will be visiting?</label>
+                    <select id="visitors" name="visitors" required>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <label for="date">Which date will you be visiting?</label><br>
+                    <input type="date" id="date" name="date" min="2021-04-01"><br>
+                        <label for="textarea">Any further information?</label><br>
+                        <small>If the date registrory didn't work as properly please make sure to specify the date here</small>
+                        <textarea rows="5" cols="40" name="textarea" id="textarea"
+                            placeholder="If the date registrory didn't work as properly please make sure to specify the date here">
+                                    </textarea>
+                                    <button type="submit" class="btn btn-success">Submit</button>
+
+                        </label>
+                </form>
+            </div>
         </div>
-            <div class="col-md coronavirus"><h3>Due to the Corona virus...</h3>
-            <p>We have chosen to limit our maximum of visitors to a maximum of 15 persons a time.</p></div>
-       </div>
     </section>
 
-     <!--Map and opening hours-->
+    <!--Map and opening hours-->
 
     <section class="container-fluid mapsec">
         <div class="row">
             <div class="col-sm">
                 <!--Google maps code snippet from https://google-map-generator.com/-->
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="415" height="398" id="gmap_canvas" src="https://maps.google.com/maps?q=blockhusudden&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org">putlocker</a><br><style>.mapouter{position:relative;text-align:right;height:398px;width:415px;}</style><a href="https://www.embedgooglemap.net">how to add a google map to html</a><style>.gmap_canvas 
-            {overflow:hidden;background:none!important;height:398px;width:415px;}</style>
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="415" height="398" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=blockhusudden&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://putlocker-is.org">putlocker</a><br>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 20rem;
+                                width: 20rem;
+                            }
+                        </style><a href="https://www.embedgooglemap.net">how to add a google map to html</a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 20rem;
+                                width: 20rem;
+                            }
+                        </style>
+                    </div>
                 </div>
-            </div>
-            <!--./ends here--->
-        </div>
-            <div class="col-sm divbox">
-               <h4>Directions</h4>
-               <p>By taking the trail from Kungsträdgården, stopping at Blockhusudden. </p>
+                <!--./ends here--->
             </div>
             <div class="col-sm divbox">
-                <ul><h4>Opening hours</h4></ul>
-            </div>            
+                <h4>Directions</h4>
+                <p>By taking the trail from Kungsträdgården, stopping at Blockhusudden. </p>
+            </div>
+            <div class="col-sm divbox">
+                <ul>
+                    <h4>Opening hours</h4>
+                </ul>
+            </div>
         </div>
     </section>
 
@@ -121,9 +183,10 @@
                                         </li>
                                     </ul>
                                     <label for="email">Email</label><br>
-                                        <input type="email" id="email" name="email_address" class="text-input" required><br>
+                                    <input type="email" id="email" name="email_address" class="text-input" required><br>
                                     <label for="textarea">Your question</label>
-                                    <textarea rows="5" cols="40" name="textarea" id="textarea" placeholder="Write your question here" required>
+                                    <textarea rows="5" cols="40" name="textarea" id="textarea"
+                                        placeholder="Write your question here" required>
                                     </textarea>
                                 </form>
                             </div>
