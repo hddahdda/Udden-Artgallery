@@ -8,7 +8,7 @@ body {
 
 .welcome {
     height:100vh;
-    background: url('../assets/images/par.jpeg')
+    background: url("../images/par.jpeg")
     no-repeat bottom right fixed;
      background-size: cover;
     position: relative;
