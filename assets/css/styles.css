@@ -256,20 +256,23 @@ padding-top: 1rem;
 background: url("../images/whitehchair.jpeg") no-repeat bottom;
 background-size: cover; 
 height: 100vh;
-
 }
-/**--not working
 
-@media screen and (max-width: width 700px;) {
+@media only screen and (max-width: 600px) {
     h1 {
-        font-size: 25%;
-        position: fixed;
+        font-size: 2rem;
+        position: relative;
     }
 
     .h1visit {
-        font-size: 25%;
+        font-size: 2rem;
+        position: relative;
     }
 }
 
----*./
+.mapouter {
+    min-width: 1rem;
+}
+
+
 
