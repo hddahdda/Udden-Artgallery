@@ -7,6 +7,9 @@ body {
 
 hr {
     width: 9rem;
+    background-color:#87ADC6;
+    height: 0.1rem;
+    border-radius: 50%;
 }
 /*----------------Header, Navbar-------------*/
 
@@ -212,7 +215,6 @@ padding: 1.5rem 3rem 1.5rem;
     margin-right: 1rem;
     text-align: center;
     font-weight: 300;
-   
 }
 
 .coronavirus {
@@ -221,7 +223,6 @@ padding: 1.5rem 3rem 1.5rem;
     padding: 0 2rem;
     font-size: 1.1rem;
     font-weight: 300;
-    
 }
 
 .coronavirus h3 {
@@ -237,7 +238,6 @@ padding: 1.5rem 3rem 1.5rem;
 background: url("../images/whitehchair.jpeg") no-repeat bottom;
 background-size: cover; 
 height: 100vh;
-
 
 }
 /**--not working
