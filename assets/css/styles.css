@@ -215,6 +215,7 @@ padding: 1.5rem 3rem 1.5rem;
     margin-right: 1rem;
     text-align: center;
     font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 .coronavirus {
@@ -228,10 +229,27 @@ padding: 1.5rem 3rem 1.5rem;
 .coronavirus h3 {
     font-weight: 300;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .coronavirus form {
-    font-weight: 300;
+    font-weight: 900;
+}
+
+.coronavirus label {
+padding-top: 1rem;
+}
+
+.btn-success {
+    background-color: #C14242;
+    border:none;
+    margin: 0.5rem;
+    padding: 0.8rem;
+    font-weight: 1000;
+}
+
+.btn-success:hover {
+    background-color: #e84545;
 }
 
 .aboutsec {

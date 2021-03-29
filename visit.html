@@ -68,10 +68,12 @@
                 <h3>Pre-booking Form</h3>
                 <hr>
                 <form>
-                    <label for="fname">First Name</label><br>
+                    <label for="fname">First Name:</label><br>
                     <input type="text" id="fname" name="first_name" class="text-input" required><br>
-                    <label for="lname">Last Name</label><br>
+                    <label for="lname">Last Name:</label><br>
                     <input type="text" id="lname" name="last_name" class="text-input" required><br>
+                    <label for="fname">Email:</label><br>
+                    <input type="text" id="email" name="email_address" class="text-input" required><br>
                     <label for="visitors">How many will be visiting?</label>
                     <select id="visitors" name="visitors" required>
                         <option value="3">3</option>
@@ -87,7 +89,7 @@
                     <label for="textarea">Any further information?</label><br>
                     <small>If the date registrory didn't work as properly please make sure to specify the date
                         here</small>
-                    <textarea rows="5" cols="40" name="textarea" id="textarea"
+                    <textarea rows="5" cols="40" name="textarea" id="textarea" class="container-fluid"
                         placeholder="If the date registrory didn't work as properly please make sure to specify the date here">
                                     </textarea>
                     <button type="submit" class="btn btn-success">Submit</button>
