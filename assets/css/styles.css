@@ -112,12 +112,12 @@ padding: 3rem 3rem 1.5rem;
 background-color: #f08989;
 margin-top: 2rem;
 padding: 3rem 3rem 3rem 1rem;
+text-align: center;
 }
 
 .mapsec h4 {
-    text-align: center;
     text-transform: uppercase;
-    padding: 2rem 2rem 2rem 1rem;
+    margin: 1rem 2rem 2rem 1rem;
     color: #000026;
 }
 
@@ -167,14 +167,10 @@ footer h5:hover{
    border:none;
    background: inherit;
 }
-
 /*----------------Visit and About Page-------------*/
 
 #visit {
     background:rgb(120, 142, 158);
-}
-
-.namediv {
 }
 
 .h1visit {
@@ -262,6 +258,12 @@ padding-top: 1rem;
 background: url("../images/whitehchair.jpeg") no-repeat bottom;
 background-size: cover; 
 height: 100vh;
+}
+
+.aboutbox {
+    margin:3rem;
+    padding:3rem;
+    background-color:rgba(255, 255, 255, 0.54);
 }
 
 @media only screen and (max-width: 600px) {
