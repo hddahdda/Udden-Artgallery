@@ -1,13 +1,18 @@
 
+
+
 # Udden Artgallery
+
+![Mobile format]()
+
+Live website: https://hddahdda.github.io/Udden-Artgallery/ 
+
 
 ## About
 
 This is a website for a nonexisting artgallery placed at Blockhusudden in Djurgården, Stockholm. 
 
-Udden Artgallery exhibits mostly modern contemporary art and photographs. It's thought to be funded through a fund, state contribution aswell as entry fees. Since not being entirelly reliant on It's visitors in the economic aspect Udden is granted partly the freedom of not having to be too commercial whilst gaining a greater responsibility towards It's donors. In conclusion this creates a dubble responsibility for Udden, that also has to be applied to the website. One being commercial and the other to make sure to follow it's contributors wishes, this to guarantee further economical grants. 
-
-
+Udden Artgallery exhibits mostly modern contemporary art and photographs. It's thought to be funded through a fund, state contribution aswell as entry fees. Since not being entirelly reliant on Its visitors in the economic aspect Udden is granted partly the freedom of not having to be too commercial whilst gaining a greater responsibility towards Its donors. In conclusion this creates a dubble responsibility for Udden, that also has to be applied to the website. One being commercial and the other to make sure to follow Its contributors wishes, this to guarantee further economical grants. 
 
 ## UX
 
@@ -15,9 +20,6 @@ Udden Artgallery exhibits mostly modern contemporary art and photographs. It's t
 
 The goal of the website is for potential visitors to, in an intuitive way understand the focus on the gallery while still being informative aswell as accessible. 
 Since the gallery hosts artworks made by modern artists the approach in colourschemes, fonts and images is according to the common subconcious view of the concept of modern art and galleries. 
-
-#### Accessibility 
-By setting the fontsize of the paragraphs to 1rem, the font is both responsive aswell as on the larger scale. 
 
 #### User Stories
 
@@ -45,17 +47,40 @@ By setting the fontsize of the paragraphs to 1rem, the font is both responsive a
 * Social media Icons
 * Locate the address, opening hours and pricing of the gallery
 
-#### Addressing user needs and expectencies 
+#### Addressing user needs and expectancies 
 To address the former needs stated the website will have:
 * A working navbar
 * A "contact us" form
 * Easy access to address, pricing and opening hours 
-* Social Icons
+* Social media Icons
 * Mobile-first approach in creating the website
 
 ## Structure
+**The website consists of three pages:**
 
-(Assuming some part of the websites visitors would be people tired from walking at Djurgården I wanted the header of the website to have a feeling of calm, as in, a place to rest aswell as maintaining the attention of the visitor. To achive this i used a image (credited below)  with a background of blue background aswell as a animation, "keyframe" (also credited below) to have the viewer "sunk in".)
+* "Home" page titled "Udden Artgallery" 
+* "Visit" page titled "Udden Artgallery | Visit"
+* "About Us" page "Udden Artgallery | About Us"
+
+**The pages have these sections in common**
+* All three pages has a navbar with the links: "Visit" and "About Us".
+* All three pages has "Udden Artgallery" as logo which also links to the homepage. 
+* All three pages has a footer with social media links.
+
+**Homepage - Udden Artgallery**
+* Hero image.
+* Section that covers current exhibitions, images with text.
+* Section that covers map, "how to get here" and opening hours (also covered in Visit page).
+
+**Udden Artgallery | Visit**
+* Section with images, pricing, Corona-virus info and a "Pre-booking form". 
+
+**Udden Artgallery | About Us**
+* Hero image with  text about the art gallery. 
+
+## Wireframes
+
+### Design
  
 #### Colors
 
@@ -63,33 +88,35 @@ To address the former needs stated the website will have:
 
 * Using the ColorPick Eyedropper tool extension for Google Chrome to use colors viewed in the header as footer.  
 
+* For the background color i used #f5f5f5 which is a slightly off white, this to improve user experience. Straight white color is more demanding for the eyes. 
+
+* The red header serves as a way of gaining the attention of the viewer.
+* The titles have a color of dark blue, also this to decrease  
+
 #### Fonts
+* Logo is of the font "Syne Mono" which looks modern and slightly cubist. This is a font that works well in advertising for a gallery of contemporary art. 
 
+> "Syne is an exploration of atypical associations of weights and
+> styles" - [Google Fonts](https://fonts.google.com/specimen/Syne+Mono?preview.text_type=custom#about)
 
+ * All other text is of the font "Montserrat" which is a font created to "rescue the beauty of urban typography that emerged in the first half of the twentieth century" ([Google Fonts](https://fonts.google.com/specimen/Montserrat?preview.text_type=custom#about)). This while still being easily readable made me choose this font. 
 
+By setting the fontsize of the paragraphs to 1rem, the font is both responsive aswell as on the larger scale. I also increased letter-spacing, this to create a more easily read website.
 
-
-## Bugs Discovered
-
-* The header doesn't render well in mobile format. The navbar and logo becomes smushed together and the informative div on the right completely dissapears.
-
-* The Modal form didn't close when pressing the submit button. Solved by adding the bootstrap: data-dismiss="modal" attribute after searching on w3schools. 
-
-* When rendered in mobile format the Google Map is too big. Not solved yet.
 
 ## Features
 
-### Scope
-
-#### User expectencies 
-
-#### 
-
 ### Existing Features
-
+* Navbar
+* Footer with social media links
+* "Contact Us" modal (Bootstrap)
+* Pre-booking form
+* [Google maps](https://google-map-generator.com/) 
+* Bootstrap Modal
 ### Features Left to implement 
-
-* JUMBOTRON - concerning Corona 
+* JUMBOTRON - concerning Corona - link to "visit" page.
+* During holidays the logo could change Its colors, this could be done using the css `text-shadow:` property. A christmas logo could have the red color remain but with a green shadow. 
+* Changing the modal to become a contact form. This will need some use of JavaScript for the "required" attribute to work.
 
 ## Technologies Used
 
@@ -99,12 +126,34 @@ To address the former needs stated the website will have:
 * GitHub
 * Git
 * GitPod
+* [Google Maps Generator](https://google-map-generator.com)
+* [Favicon creator](https://www.favicon.cc/) (to create favicons for the different pages)
 
 
 ## Testing 
+* Navbar 
+**Expected outcome**: being visible and responsive on all screens.
+**Result**: Navbar is rendering correctly.
+
+* Form
+**Expected outcome**: The form requires text in name and email input boxes to be able to send.
+**Result**: Form has the attribute "required".
+
+* Social Media links
+**Expected outcome**: The links opens in a new tab (good UX).
+**Result**: The links opens in a new tab.
+
+The site has been tested in browsers as Google Chrome, Safari and Firefox without errors. It has also been tested across devices on Huawei P20 and Iphone 11 without known bugs or errors. 
+
+**The  W3C Markup Validator**
+* When trying to use a html codesnippet with google maps this didn't get approved by the W3C validator, to solve this i changed the live map to a screenshot of the map. 
+* As h5 was not accepted as childs of button items I had to remove the textitem, which also affected the layout. 
+
+**The  W3C CSS Validator**
+* Everything was valid.  
 
 ## Deployment
-
+This website is deployed from the master branch in GitHub pages. 
 
 
 ## Credits 
@@ -112,7 +161,7 @@ To address the former needs stated the website will have:
 ### Code credits
 
 * Keyframe code snippet is borrowed from the "Love Running" project at Code Institute. 
-* Google Maps code snippet from: https://www.embedgooglemap.net/
+* Modal from: https://getbootstrap.com/docs/4.5/components/modal/
 
 ### Colors and fonts 
 #### Colours: 
@@ -126,15 +175,13 @@ To address the former needs stated the website will have:
 
 ### Media
 
-* All images are taken from Unsplash 
+* All images are taken from Unsplash. 
 
 ### Acknowledgements
 
-* Mentor
+* Mentor Brian Macharia
 
-* Moderna Museet for inspiration in designing the website
+* Moderna Museet for inspiration in designing the website.
 
-* https://www.moma.org/ 
-
-
-```
+* https://www.moma.org/ - inspiration in designing the website.
+* Friends Jasenko and Harald for support.
