@@ -51,7 +51,7 @@ h1 {
     position: static;
     margin: 3rem 0 0 2rem;
     background-color:rgba(255, 255, 255, 0.91);
-    border-color: rgba(5, 42, 45, 0.65);
+  
 }
 
 h1:hover {
@@ -76,8 +76,7 @@ h1:hover {
     top: 500px;
     color: whitesmoke;
     padding-top: 0.7rem;
-    width:50%;
-    position:relative;
+    position:fixed;
 }
 
 .headerinfo h2 {
@@ -96,6 +95,7 @@ padding: 3rem 3rem 1.5rem;
     text-transform: uppercase;
     padding-bottom: 2rem;
     color: #c81919;
+    font-weight: 900;
 }
 
 .information p {
@@ -150,12 +150,6 @@ footer h5:hover{
     text-decoration: none;
 }
 
-/*----------------Visit and About Page-------------*/
-
-#visit {
-    background:rgb(120, 142, 158);
-}
-
 .button {
     background:rgb(136,173,199);
     border:none;
@@ -167,8 +161,13 @@ footer h5:hover{
    background: inherit;
 }
 
-.namediv {
+/*----------------Visit and About Page-------------*/
 
+#visit {
+    background:rgb(120, 142, 158);
+}
+
+.namediv {
 }
 
 .h1visit {
