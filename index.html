@@ -129,11 +129,34 @@
             <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank">
                     <h5><i class="fab fa-instagram"></i></h5>
                 </a></li>
-            <li class="list-inline-item"><a href="contact.html">
+           <li class="list-inline-item"><button type="button" class="button" data-toggle="modal"
+                    data-target="#contactmodal">
                     <h5><i class="far fa-envelope"></i></h5>
-                </a></li>
+                </button>
+                <!-- Modal code from getBootstrap -->
+                <div class="modal fade" id="contactmodal" tabindex="-1" aria-labelledby="contactmodallabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="contactmodallabel">Contact Us</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                 <p>Phone: 123 456 789</p><br>
+                                <p>Mail: udden@artgallery.com</p>       
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button" data-dismiss="modal">Close</button>
+                                <button type="submit" class="button" data-dismiss="modal">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
         </ul>
-
     </footer>
 
     <!--./Footer-->
