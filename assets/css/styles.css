@@ -5,7 +5,6 @@ body {
     background-color: #f5f5f5;
     letter-spacing: 0.1rem;
     font-weight: 800;
-
 }
 
 hr {
@@ -136,6 +135,10 @@ mapsec b {
     margin-top: 1rem;
     padding: 1rem;
 }
+
+.googlemaps {
+   max-width: 100%;
+}
 /*----------------Footer-------------*/
 
 footer {
@@ -168,7 +171,6 @@ footer h5:hover{
    background: inherit;
 }
 /*----------------Visit and About Page-------------*/
-
 #visit {
     background:rgb(120, 142, 158);
 }
@@ -247,7 +249,6 @@ padding-top: 1rem;
     border:none;
     margin: 0.5rem;
     padding: 0.8rem;
-    font-weight: 1000;
 }
 
 .btn-success:hover {
@@ -277,11 +278,3 @@ height: 100vh;
         position: relative;
     }
 }
-
-.mapouter {
-    object-fit: fill;
-    
-}
-
-
-
