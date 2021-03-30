@@ -271,7 +271,8 @@ height: 100vh;
 }
 
 .mapouter {
-    min-width: 1rem;
+    padding-left: 0;
+    min-width: 370px;
 }
 
 
