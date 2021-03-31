@@ -3,8 +3,6 @@
 
 # Udden Artgallery
 
-![Mobile format]()
-
 Live website: https://hddahdda.github.io/Udden-Artgallery/ 
 
 
@@ -78,7 +76,7 @@ To address the former needs stated the website will have:
 **Udden Artgallery | About Us**
 * Hero image with  text about the art gallery. 
 
-## Wireframes
+## [Wireframes](https://github.com/hddahdda/Udden-Artgallery/tree/master/assets/wireframes)
 
 ### Design
  
@@ -91,7 +89,7 @@ To address the former needs stated the website will have:
 * For the background color i used #f5f5f5 which is a slightly off white, this to improve user experience. Straight white color is more demanding for the eyes. 
 
 * The red header serves as a way of gaining the attention of the viewer.
-* The titles have a color of dark blue, also this to decrease  
+* The titles have a color of dark blue, which is easier on the eyes then black. 
 
 #### Fonts
 * Logo is of the font "Syne Mono" which looks modern and slightly cubist. This is a font that works well in advertising for a gallery of contemporary art. 
@@ -101,7 +99,7 @@ To address the former needs stated the website will have:
 
  * All other text is of the font "Montserrat" which is a font created to "rescue the beauty of urban typography that emerged in the first half of the twentieth century" ([Google Fonts](https://fonts.google.com/specimen/Montserrat?preview.text_type=custom#about)). This while still being easily readable made me choose this font. 
 
-By setting the fontsize of the paragraphs to 1rem, the font is both responsive aswell as on the larger scale. I also increased letter-spacing, this to create a more easily read website.
+By setting the fontsize of the paragraphs to 1rem, the font is both responsive aswell as on the larger scale. I also increased letter-spacing, this to create a more readable website.
 
 
 ## Features
@@ -126,7 +124,6 @@ By setting the fontsize of the paragraphs to 1rem, the font is both responsive a
 * GitHub
 * Git
 * GitPod
-* [Google Maps Generator](https://google-map-generator.com)
 * [Favicon creator](https://www.favicon.cc/) (to create favicons for the different pages)
 
 
@@ -153,8 +150,36 @@ The site has been tested in browsers as Google Chrome, Safari and Firefox withou
 * Everything was valid.  
 
 ## Deployment
-This website is deployed from the master branch in GitHub pages. 
+This website is deployed from the master branch in GitHub pages.  To deploy a website you follow the following steps:
+1. Go to GitHub repository
+2. Go to "Settings"
+3. In Settings, find the "GitHub pages"
+4. Click on  "select source" and then select "Master branch"
+5. Save
+After a small while a live version of you website is published and presented: https://hddahdda.github.io/Udden-Artgallery/ 
 
+To "clone this website" 
+* you copy this link: https://github.com/hddahdda/Udden-Artgallery.git
+* In a empty repository, open the terminal in your code editor and write the command: git clone https://github.com/hddahdda/Udden-Artgallery.git
+* Pressing "Enter"
+
+I would recommend doing this in GitPod which is a free code editor where you could simply use your GitHub account to login.  
+* To view your project in GitPod write:
+"python -m http.server" in your command bar.
+
+* To view which files has been changed or committed put:
+"git status" in your command bar
+
+* To add files that needs to be committed put;
+"git add filehere.html" in your command bar.
+
+* To commit your file to Git put:
+"git commit -m comment on the commit here" in your command bar.
+
+* To push your files och changes to the files to GitHub put:
+"git push" in your command bar.
+
+There are other ways of cloning this website, you could also [Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) your website or you could go to https://github.com/hddahdda/Udden-Artgallery press the "Code" button then "Download Zip" for then to be downloaded. You then need to "extract" them to be able to work with them in your code editor.
 
 ## Credits 
 
