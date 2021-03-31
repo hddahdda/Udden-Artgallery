@@ -1,7 +1,12 @@
 
 
 
-# Udden Artgallery
+# Udden artgallery
+![Mobile view of website](udden_images/iphone.png)
+
+![Computer view of website](udden_images/udden_header_computer.png)
+
+
 
 Live website: https://hddahdda.github.io/Udden-Artgallery/ 
 
