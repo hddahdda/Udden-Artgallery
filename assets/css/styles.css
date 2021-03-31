@@ -1,280 +1,287 @@
 /*----------------Body-------------*/
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #f5f5f5;
-    letter-spacing: 0.1rem;
-    font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f5f5f5;
+	letter-spacing: 0.1rem;
+	font-weight: 800;
 }
 
 hr {
-    width: 9rem;
-    background-color:#87ADC6;
-    height: 0.1rem;
-    border-radius: 50%;
+	width: 9rem;
+	background-color: #87ADC6;
+	height: 0.1rem;
+	border-radius: 50%;
 }
+
+
 /*----------------Header, Navbar-------------*/
 
 .welcome {
-    height:100vh;
-    background: url("../images/par.jpeg")
-    no-repeat bottom right fixed;
-     background-size: cover;
-    position: relative;
-    background-position: center;
+	height: 100vh;
+	background: url("../images/par.jpeg") no-repeat bottom right fixed;
+	background-size: cover;
+	position: relative;
+	background-position: center;
 }
 
 .welcome {
-    height: 100vh;
-    overflow: hidden;
-    position: inherit;
-
-/*----------------Code snippet, keyframe, borrrowed from "Love Running" project-------------*/
-    animation-name: welcome-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: both;
+	height: 100vh;
+	overflow: hidden;
+	position: inherit;
+	/*----------------Code snippet, keyframe, borrrowed from "Love Running" project-------------*/
+	animation-name: welcome-zoom;
+	animation-duration: 5s;
+	animation-fill-mode: both;
 }
 
 @keyframes welcome-zoom {
-    from {
-        transform: scale(1.2);
-    }
-
-    to {
-        transform: scale(1);
-    }
+	from {
+		transform: scale(1.2);
+	}
+	to {
+		transform: scale(1);
+	}
 }
+
+
 /*----------------./Ends here-------------*/
 
 h1 {
-    font-family: 'Syne Mono', monospace;
-    font-size: 3rem;
-    color: #e84545;
-    position: static;
-    margin: 3rem 0 0 2rem;
-    background-color:rgba(255, 255, 255, 0.91);
-  
+	font-family: 'Syne Mono', monospace;
+	font-size: 3rem;
+	color: #e84545;
+	position: static;
+	margin: 3rem 0 0 2rem;
+	background-color: rgba(255, 255, 255, 0.91);
 }
 
 h1:hover {
-    color:#C14242;
+	color: #C14242;
 }
 
 .navbar-nav {
-    color:whitesmoke; 
-    position: relative;
+	color: whitesmoke;
+	position: relative;
 }
 
 .navbar-nav a:hover {
-    background-color: #e84545;
+	background-color: #e84545;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(247 247 247);
+	color: rgb(247 247 247);
 }
-    
+
 .headerinfo {
-    left: 600px;
-    top: 500px;
-    color: whitesmoke;
-    padding-top: 0.7rem;
-    position:fixed;
+	left: 600px;
+	top: 500px;
+	color: whitesmoke;
+	padding-top: 0.7rem;
+	position: fixed;
 }
 
 .headerinfo h2 {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
+
 /*----------------Mid-section-------------*/
+
 .information {
-    background-color: #f5f5f5;
-margin-top: 2rem;
-padding: 3rem 3rem 1.5rem; 
+	background-color: #f5f5f5;
+	margin-top: 2rem;
+	padding: 3rem 3rem 1.5rem;
 }
 
 .information h3 {
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 2rem;
-    color: #000026;
-    font-weight: 900;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+	color: #000026;
+	font-weight: 900;
 }
 
 .information p {
-    padding-top: 2rem;
-    font-size: 1rem;
+	padding-top: 2rem;
+	font-size: 1rem;
 }
+
 
 /*----------------Map and opening hours section-------------*/
 
 .mapsec {
-background-color: #f08989;
-margin-top: 2rem;
-padding: 3rem 3rem 3rem 1rem;
-text-align: center;
+	background-color: #f08989;
+	margin-top: 2rem;
+	padding: 3rem 3rem 3rem 1rem;
+	text-align: center;
 }
 
 .mapsec h4 {
-    text-transform: uppercase;
-    margin: 1rem 2rem 2rem 1rem;
-    color: #000026;
+	text-transform: uppercase;
+	margin: 1rem 2rem 2rem 1rem;
+	color: #000026;
 }
 
 .mapsec p {
-    font-size: 1rem;
-    text-align: center;
-    padding: 0 2rem;
+	font-size: 1rem;
+	text-align: center;
+	padding: 0 2rem;
 }
 
 mapsec b {
-    font-size:1rem;
+	font-size: 1rem;
 }
 
 .divbox {
-    background-color: #f5f5f5;
-    margin-top: 1rem;
-    padding: 1rem;
+	background-color: #f5f5f5;
+	margin-top: 1rem;
+	padding: 1rem;
 }
 
 .googlemaps {
-   max-width: 100%;
+	max-width: 100%;
 }
+
+
 /*----------------Footer-------------*/
 
 footer {
-   background:rgb(136,173,199);
-   font-family: 'Syne Mono', monospace;
-   padding: 2.5rem 2.5rem 1rem;
-   text-align: center;
+	background: rgb(136, 173, 199);
+	font-family: 'Syne Mono', monospace;
+	padding: 2.5rem 2.5rem 1rem;
+	text-align: center;
 }
 
 footer h5 {
-    color: whitesmoke;
-    font-size: 2.3rem;
-    text-align: right;
-    padding: 1rem;
+	color: whitesmoke;
+	font-size: 2.3rem;
+	text-align: right;
+	padding: 1rem;
 }
 
-footer h5:hover{
-    color: rgb(213,226,226);
-    text-decoration: none;
+footer h5:hover {
+	color: rgb(213, 226, 226);
+	text-decoration: none;
 }
 
 .button {
-    background:rgb(136,173,199);
-    border:none;
+	background: rgb(136, 173, 199);
+	border: none;
 }
 
 .button:hover {
-   color:whitesmoke;
-   border:none;
-   background: inherit;
+	color: whitesmoke;
+	border: none;
+	background: inherit;
 }
+
+
 /*----------------Visit and About Page-------------*/
+
 #visit {
-    background:rgb(120, 142, 158);
+	background: rgb(120, 142, 158);
 }
 
 .h1visit {
-    font-family: 'Syne Mono', monospace;
-    font-size: 3rem;
-    color: #e84545;
-    position: relative;
-    margin: 1rem 0 0 2rem;
-    background-color:rgba(255, 255, 255, 0.91);
-    border-color: rgba(5, 42, 45, 0.65);
+	font-family: 'Syne Mono', monospace;
+	font-size: 3rem;
+	color: #e84545;
+	position: relative;
+	margin: 1rem 0 0 2rem;
+	background-color: rgba(255, 255, 255, 0.91);
+	border-color: rgba(5, 42, 45, 0.65);
 }
 
 .midsection {
- background-color: #f5f5f5;
-margin-top: 2rem;
-padding: 1.5rem 3rem 1.5rem; 
+	background-color: #f5f5f5;
+	margin-top: 2rem;
+	padding: 1.5rem 3rem 1.5rem;
 }
 
 .midsection h2 {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 2rem;
-    color:#000026;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+	color: #000026;
 }
 
 .stevejohnson {
-    padding-top: 0.5rem;
+	padding-top: 0.5rem;
 }
 
 .midsection h3 {
-    padding: 2rem;
-    font-weight: 300;
-     text-transform: uppercase;
+	padding: 2rem;
+	font-weight: 300;
+	text-transform: uppercase;
 }
-    
+
 .midsection p {
-    text-align: center;
-    padding: 0.5rem;
-    font-size: 1.1rem;
+	text-align: center;
+	padding: 0.5rem;
+	font-size: 1.1rem;
 }
 
 .pricing {
-    background-color: rgba(182, 192, 202, 0.43);
-    margin-right: 1rem;
-    text-align: center;
-    font-weight: 300;
-    margin-bottom: 1rem;
+	background-color: rgba(182, 192, 202, 0.43);
+	margin-right: 1rem;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 1rem;
 }
 
 .coronavirus {
-    background-color: rgba(238, 230, 230, 0.84);
-    text-align: left;
-    padding: 0 2rem;
-    font-size: 1.1rem;
-    font-weight: 300;
+	background-color: rgba(238, 230, 230, 0.84);
+	text-align: left;
+	padding: 0 2rem;
+	font-size: 1.1rem;
+	font-weight: 300;
 }
 
 .coronavirus h3 {
-    font-weight: 300;
-    text-transform: uppercase;
-    text-align: center;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .coronavirus form {
-    font-weight: 900;
+	font-weight: 900;
 }
 
 .coronavirus label {
-padding-top: 1rem;
+	padding-top: 1rem;
 }
 
 .btn-success {
-    background-color: #C14242;
-    border:none;
-    margin: 0.5rem;
-    padding: 0.8rem;
+	background-color: #C14242;
+	border: none;
+	margin: 0.5rem;
+	padding: 0.8rem;
 }
 
 .btn-success:hover {
-    background-color: #e84545;
+	background-color: #e84545;
 }
 
 .aboutsec {
-background: url("../images/whitehchair.jpeg") no-repeat bottom;
-background-size: cover; 
-height: 100vh;
+	background: url("../images/whitehchair.jpeg") no-repeat bottom;
+	background-size: cover;
+	height: 100vh;
 }
 
 .aboutbox {
-    margin:3rem;
-    padding:3rem;
-    background-color:rgba(255, 255, 255, 0.54);
+	margin: 3rem;
+	padding: 3rem;
+	background-color: rgba(255, 255, 255, 0.54);
 }
 
 @media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 2rem;
-        position: relative;
-    }
-
-    .h1visit {
-        font-size: 2rem;
-        position: relative;
-    }
+	h1 {
+		font-size: 2rem;
+		position: relative;
+	}
+	.h1visit {
+		font-size: 2rem;
+		position: relative;
+	}
 }
